@@ -7,7 +7,7 @@ import arrow1 from "../assets/img/arrow1.svg";
 import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
-export const Skills = () => {
+const Skills = () => {
   const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -62,3 +62,5 @@ export const Skills = () => {
     </section>
   )
 }
+
+export default Skills;
